@@ -8,13 +8,17 @@ Author: Akashdeep Samra
 * This Project allows users to retrieve detailed information about a company such as how it provides the companies Employees with tags *
 
 # Extra
-# 3 Collection are created Employees,Tags,Companies
+3 Collection are created Employees,Tags,Companies
 
 ** Media is used in Employee Collection, All CRUD operations are working on all three Collections **
 
-# One-to-Many and Many-to-one & Bi-Relations relations are used
-## Company can have many Employees 
-## A single Employee can have only on Company and many Tags
+One-to-Many and Many-to-one & Bi-Relations relations are used
+
+One to many relationship - a category can contain many products, and a product can belong to a single category.
+
+Company can have many Employees 
+
+A single Employee can have only on Company and many Tags
 
 # 2 Single Pages are created
 
@@ -23,7 +27,6 @@ Author: Akashdeep Samra
 
 ### Public Roles have access to find and findAll
 ### Authenticated Roles have access to all methods
-
 
 ### Admin Credentials Are:
 
