@@ -1,0 +1,47 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Information": {
+      "type": "component",
+      "repeatable": false,
+      "component": "info.info-modal"
+    },
+    "HomeHero": {
+      "displayName": "Hero",
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.hero"
+    },
+    "EmployeeList": {
+      "displayName": "Employees",
+      "type": "component",
+      "repeatable": false,
+      "component": "employee.employees"
+    },
+    "employees": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::employee.employee"
+    },
+    "FeaturedCompany": {
+      "displayName": "FeaturedCompany",
+      "type": "component",
+      "repeatable": false,
+      "component": "company.featured-company"
+    }
+  }
+}

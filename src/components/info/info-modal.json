@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_info_info_modals",
+  "info": {
+    "displayName": "InfoModal",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

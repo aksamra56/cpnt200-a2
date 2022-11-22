@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_tag_single_tags",
+  "info": {
+    "displayName": "SingleTag",
+    "icon": "allergies"
+  },
+  "options": {},
+  "attributes": {
+    "TagTitle": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_employee_employees",
+  "info": {
+    "displayName": "Employees",
+    "icon": "blind",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "EmployeeList": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::employee.employee"
+    }
+  }
+}

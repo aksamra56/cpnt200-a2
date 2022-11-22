@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_layout_heroes",
+  "info": {
+    "displayName": "Hero",
+    "icon": "chalkboard"
+  },
+  "options": {},
+  "attributes": {
+    "Images": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "CallToAction": {
+      "type": "string",
+      "required": true
+    },
+    "Buttons": {
+      "displayName": "Button",
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.button"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_company_featured_companies",
+  "info": {
+    "displayName": "FeaturedCompany",
+    "icon": "clinic-medical"
+  },
+  "options": {},
+  "attributes": {
+    "FeaturedCompanyHeading": {
+      "type": "string"
+    },
+    "company": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::company.company"
+    }
+  }
+}

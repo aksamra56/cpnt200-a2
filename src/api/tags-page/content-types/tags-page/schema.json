@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "tags_pages",
+  "info": {
+    "singularName": "tags-page",
+    "pluralName": "tags-pages",
+    "displayName": "Tags Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "PageHeading": {
+      "type": "string",
+      "required": true
+    },
+    "GetTags": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.button"
+    },
+    "Tags": {
+      "displayName": "SingleTag",
+      "type": "component",
+      "repeatable": true,
+      "component": "tag.single-tag"
+    }
+  }
+}
