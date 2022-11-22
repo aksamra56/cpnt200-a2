@@ -4,8 +4,8 @@
 
 Author: Akashdeep Samra
 
-# Summary
-* This Project is about Company having Employees with tags *
+# Quick Summary
+* This Project allows users to retrieve detailed information about a company such as how it provides the companies Employees with tags *
 
 # Extra
 # 3 Collection are created Employees,Tags,Companies
@@ -30,4 +30,7 @@ Author: Akashdeep Samra
 *** Email : admin@admin.com ***
 *** Pass : Admin123 ***
 
+# Personal Notes
+
+The link below heled solved a confusing issue I encountered towards the end.
 https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/gitkeep-push-empty-folders-git-commit
