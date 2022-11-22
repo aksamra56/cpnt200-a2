@@ -5,7 +5,7 @@
 Author: Akashdeep Samra
 
 # Quick Summary
-* This Project allows users to retrieve detailed information about a company such as how it provides the companies Employees with tags *
+* This Project allows users to retrieve detailed information about a company such as how it provides the companies employees with tags *
 
 # Extra
 3 Collection are created Employees,Tags,Companies
