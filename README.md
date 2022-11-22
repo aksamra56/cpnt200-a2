@@ -32,5 +32,5 @@ Author: Akashdeep Samra
 
 # Personal Notes
 
-The link below heled solved a confusing issue I encountered towards the end.
+The link below helped solved a confusing issue I encountered towards the end.
 https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/gitkeep-push-empty-folders-git-commit
