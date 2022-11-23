@@ -2,6 +2,8 @@
 
 # CPNT 200 Assignment 2: Strapi Project and Model
 
+GH Repo: https://github.com/aksamra56/cpnt200-a2.git
+
 Author: Akashdeep Samra
 
 # Quick Summary
